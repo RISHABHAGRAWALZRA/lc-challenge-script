@@ -1,0 +1,21 @@
+{
+  "name": "lc-challenge-script",
+  "version": "1.0.0",
+  "description": "Script for querying and filtering data for lc-challenge",
+  "main": "server.js",
+  "scripts": {
+    "dev": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "RSH",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.6.8",
+    "dotenv": "^16.4.5",
+    "firebase-admin": "^12.0.0",
+    "needle": "^3.3.1",
+    "sqlite3": "^5.1.7",
+    "twitter-api-sdk": "^1.2.1",
+    "twitter-api-v2": "^1.16.1"
+  }
+}
